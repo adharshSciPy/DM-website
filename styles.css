@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to right, #ff7e5f, #feb47b, #ffcb95);
+    background: linear-gradient(to right, #66b450, #7e9777, #d0e6d0);
     position: relative;
-    font-family: "Poppins", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
 
 .container {
@@ -31,7 +31,7 @@ body {
     height: 7vh;
     width: 100%;
     padding: 0 10rem;
-    background-color: rgba(255, 0, 0, 0.151);
+    background-color: #a0dd8f80;
 }
 
 .nav__container {
@@ -72,6 +72,29 @@ body {
 
 .hero__text {
     flex: 1;
+    padding: 3rem 0;
+}
+
+.hero__text button {
+    margin-top: 1rem;
+    background: #629754;
+    border-radius: 999px;
+    box-shadow: #161515 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 12px 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
 }
 
 .hero__text p:nth-child(1) {
@@ -104,6 +127,7 @@ body {
 
 .subpage__heading {
     width: 100%;
+    margin-top: 5rem;
     text-align: center;
 
 }
@@ -111,7 +135,7 @@ body {
 .subpage__heading p {
     font-size: 3rem;
     color: rgb(58, 57, 57);
-    font-size: 32px;
+    font-size: 27px;
 }
 
 .subpage__body {
@@ -125,7 +149,7 @@ body {
 }
 
 .subpage__text p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .subpage__image {
@@ -181,7 +205,7 @@ body {
 }
 
 .contact__form button {
-    background: #feb47b;
+    background: #629754;
     border-radius: 999px;
     box-shadow: #161515 0 10px 20px -10px;
     box-sizing: border-box;
